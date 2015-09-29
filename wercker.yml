@@ -1,8 +1,9 @@
 box: node
 build:
   steps:
-    - jshint
     - script:
         name: echo
         code: echo 1
-      
+  after-steps:
+    - mzp/http-notify:
+       url: http://requestb.in/10uvvtt1
