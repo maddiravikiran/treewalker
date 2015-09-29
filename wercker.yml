@@ -34,9 +34,7 @@ build:
         #code: |
         #  echo "node version $(node -v) running"
          # echo "npm version $(npm -v) running"
-          
-          
-          
+
   after-steps:
     - mzp/http-notify:
-      url: http://requestb.in/10uvvtt1
+        url: http://requestb.in/10uvvtt1
