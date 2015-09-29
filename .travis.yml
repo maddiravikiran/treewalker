@@ -1,7 +1,3 @@
-
 language: node_js
-node_js:
-- "0.10"
 notifications:
-webhooks: https://qa1.kore.com/hooks/b5b6570dc98e29ed4ced186514d2087e
-webhooks: http://requestb.in/10uvvtt1
+      webhooks:   http://requestb.in/10uvvtt1

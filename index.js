@@ -1,7 +1,10 @@
 ;( function() {
 
 	function start(parent, childkey, cb) {
+
 		//Test happen jjjj
+
+		//Comment added normal
 		var node = parent;
 		var child = childkey;
 
