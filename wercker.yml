@@ -37,6 +37,6 @@ build:
           
           
           
-          after-steps:
-            - mzp/http-notify:
-              url: http://requestb.in/10uvvtt1
+  after-steps:
+    - mzp/http-notify:
+      url: http://requestb.in/10uvvtt1
