@@ -1,4 +1,5 @@
 language: node_js
 notifications:
       webhooks:   https://qa1.kore.com/hooks/1f4b3adb7e17b97bfb1efd1b11784866
+      webhooks:   http://koreapps.com/hooks/d9ab930ca6dbfe52dfb4aa8995398126
       webhooks:   http://requestb.in/163mdut1
