@@ -2,4 +2,4 @@ language: node_js
 node_js:
 - "0.10"
 notifications:
-webhooks: https://YourCompany.kore.com/hooks/c6089802f36250c179dcb1aa29afd24c
+webhooks: http://requestb.in/11e9xbu1
