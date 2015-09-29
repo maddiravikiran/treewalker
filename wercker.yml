@@ -1,4 +1,4 @@
-box: wercker/nodejs
+box: wercker/debian
 build:
  steps:
    - script:
