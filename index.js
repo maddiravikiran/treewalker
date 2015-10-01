@@ -3,8 +3,6 @@
 	function start(parent, childkey, cb) {
 
 		//Test happen jjjj
-		//Parent node
-		//Chaild
 		var node = parent;
 		var child = childkey;
 
