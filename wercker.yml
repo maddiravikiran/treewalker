@@ -11,7 +11,7 @@ build:
     -  script:
         name: some simple test!
         code: |-
-          echo "line 1"
+          ech"line 1"
           echo "line 2"
 
   after-steps:
