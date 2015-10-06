@@ -1,7 +1,6 @@
 box: node
 services:
-  - mongodb
-  - rabbitmq
+  
 build:
   steps:
     - npm-install:
