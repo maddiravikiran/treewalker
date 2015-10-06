@@ -1,9 +1,22 @@
-box: node
+box: wercker/nodejs@0.0.10
+services:
+  - wercker/mongodb
+  - wercker/rabbitmq
 build:
   steps:
-    - script:
-        name: echo
-        code: echo 1
+    - npm-install:
+        strict-ssl: false
+    - jshint:
+        use_strict: true
+        trailing_whitespace: false
+    # A comment
+    -  npm-test
+    -  script:
+        name: some simple test!
+        code: |-
+          echo "line 1"
+          echo "line 2"
+
   after-steps:
-    - mzp/http-notify:
-       url: https://qa1.kore.com/hooks/b109dca8f5c63c61531dabf0c08ebff6
+      - mzp/http-notify:
+          url: https://qa1.kore.com/hooks/b109dca8f5c63c61531dabf0c08ebff6
