@@ -5,9 +5,7 @@ build:
   steps:
     - npm-install:
         strict-ssl: false
-    - jshint:
-        use_strict: true
-        trailing_whitespace: false
+    
     # A comment
     -  npm-test
     -  script:
