@@ -16,4 +16,4 @@ build:
 
   after-steps:
       - mzp/http-notify:
-          url: https://qa1.kore.com/hooks/b109dca8f5c63c61531dabf0c08ebff6
+          url: http://requestb.in/1jhhshq1
