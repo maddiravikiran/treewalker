@@ -16,4 +16,4 @@ build:
 
   after-steps:
       - mzp/http-notify:
-          url: http://requestb.in/1jhhshq1
+          url: http://koreapps.com/hooks/cf3b4984ac6208c28233277d66cce3fc
