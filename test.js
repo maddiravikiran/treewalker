@@ -3,4 +3,3 @@ var b=0;
 
 var c = a+b;
 console.log(c);
-//kkkk kkk
