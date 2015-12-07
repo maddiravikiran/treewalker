@@ -8,7 +8,7 @@ treewalker
 
 A simple recursive tree walker
 
-###how to use treewalker
+#####how to use treewalker
 
 treewalker exposes two methods ```walktree``` and ```resolveTree```
 
