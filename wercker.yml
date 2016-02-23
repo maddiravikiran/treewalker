@@ -11,9 +11,9 @@ build:
     -  script:
         name: some simple test!
         code: |-
-          ech"line 1"
+          echo "line 1"
           echo "line 2"
 
   after-steps:
       - mzp/http-notify:
-          url: http://koreapps.com/hooks/cf3b4984ac6208c28233277d66cce3fc
+          url: https://qa1.kore.com/hooks/5b3cc5319f1316fd608b56932e56bcfc
